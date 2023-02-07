@@ -5,7 +5,6 @@ import { FaustProvider } from '@faustwp/core';
 import 'normalize.css/normalize.css';
 import '../styles/main.scss';
 import ThemeStyles from 'components/ThemeStyles/ThemeStyles';
-import 'newrelic'
 
 export default function MyApp({ Component, pageProps }) {
   const router = useRouter();
